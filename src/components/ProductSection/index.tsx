@@ -61,7 +61,7 @@ export default function Component() {
                   <h3 className="text-white font-medium">{service}</h3>
                   <div className="flex items-center text-indigo-400 text-sm">
                     Learn More
-                    <ArrowUpRight className=" ml-2 h-4 w-4" />
+                    <ArrowUpRight className=" ml-1s h-4 w-4" />
                   </div>
                 </div>
               </Link>
