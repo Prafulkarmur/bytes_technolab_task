@@ -1,6 +1,7 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import ThreeColumnsSection from "./ThreeColumnsSection"
 
 export default function Component() {
   return (
@@ -20,26 +21,7 @@ export default function Component() {
         </div>
 
         {/* Three Columns Section */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="space-y-3">
-            <h3 className="text-xl font-semibold text-white">Maecenas eleifend</h3>
-            <p className="text-slate-400">
-              Curabitur sit amet lectus justo. Nullam accumsan velit quam, quis euismod dui sodales a. Proin non tincidunt neque.
-            </p>
-          </div>
-          <div className="space-y-3">
-            <h3 className="text-xl font-semibold text-white">Duis ac ipsum nulla</h3>
-            <p className="text-slate-400">
-              Aliquam pretium enim odio dapibus, non imperdiet lorem euismod. Curabitur blandit urna ante, ac accumsan lorem aliquat.
-            </p>
-          </div>
-          <div className="space-y-3">
-            <h3 className="text-xl font-semibold text-white">Duis laoreet posuere</h3>
-            <p className="text-slate-400">
-              Vivamus eros metus, vestibulum ut erat aliquam, pellentesque consectetur libero. Vestibulum laoreet dictum magna at suscipit.
-            </p>
-          </div>
-        </div>
+        <ThreeColumnsSection />
 
         {/* Services Section */}
         <div className="space-y-8">

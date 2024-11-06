@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Component() {
     return (
-        <footer className="relative bg-gradient-to-t from-[#2B3167] to-[#1B1F38] px-4 py-12 md:px-6">
+        <footer className="relative bg-gradient-to-t from-[#343a79] to-[#1B1F38] px-4 py-12 md:px-6">
             <div className="mx-auto max-w-7xl">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
                     {/* Logo and Nav Section */}
